@@ -212,7 +212,7 @@ function Pipe() {
     function loadGraphics() {
         // Initiate the sprite sheet
         var img = new Image();
-        img.src = "images/final-frog-spritesheet2.png";
+        img.src = "final-frog-spritesheet2.png";
         img.onload = function () {
             initSprites(this);
             replayButton = {
